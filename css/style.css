@@ -1,0 +1,38 @@
+h1{
+    font-family: "Pacifico", cursive;
+    position: relative;
+    z-index: 999;
+}
+
+h1::before{
+
+    content: '';
+    background-color: orange;
+    width: 20%;
+    height: 25px;
+  bottom: 30%;
+    position: absolute;
+    z-index: -1;
+transition: all .5s ease-in;
+opacity: .5;
+
+}
+
+h1:hover:before {
+  
+   
+    width: 20%;
+    height: 50px;
+   
+    position: absolute;
+    z-index: -1;
+
+
+    
+}
+/* .col-md-12{
+   border: 2px;
+    border-color: black;
+    border-style: dotted;
+   
+} */
